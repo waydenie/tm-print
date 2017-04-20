@@ -3,7 +3,7 @@ use strict;
 use lib qw(perllib);
 use POSIX qw(strftime);
 use JSON;
-use Data::Dumper;
+#use Data::Dumper;
 
 $|++;
 my $json = JSON->new;
